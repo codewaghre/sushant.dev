@@ -60,8 +60,8 @@ function About() {
                         {stats.map((item, index) => (
                             <motion.div key={index} className={item.className}
                                 whileInView={{ opacity: 1, x: 0, scale: 1 }}
-                                initial={{ opacity: 0, x: 50, scale: 0.8 }}
-                                transition={{ duration: 1.5, ease: "easeOut" }}
+                                initial={{ opacity: 0, x: 10, scale: 0.9 }}
+                                transition={{ duration: 0.5, ease: "easeOut" }}
                                 viewport={{ once: false }}
                             >
                                 <div className={item.innerClass}>
