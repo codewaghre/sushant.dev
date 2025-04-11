@@ -2,6 +2,7 @@ import React from 'react'
 import '../css/footer.css'
 
 import Socials from '../components/Socials'
+import { motion } from "motion/react"
 
 function Footer() {
     return (
@@ -9,12 +10,23 @@ function Footer() {
 
             <footer>
                 <div className='footer-text'>
-                    <p>© 2024 Your Company, Inc. All rights reserved.</p>
+                    <motion.p
+                        whileInView={{ opacity: 1, y: 0 }}
+                        initial={{ opacity: 1, y: 20 }}
+                        transition={{ duration: 1.2 }}
+                        viewport={{ once: false }}
+                    >© 2024 Your Company, Inc. All rights reserved.</motion.p>
                 </div>
 
-                <div>
+                <motion.div
+                    whileInView={{ opacity: 1, y: 0 }}
+                    initial={{ opacity: 1, y: 20 }}
+                    transition={{ duration: 1.2 }}
+                    viewport={{ once: false }}
+
+                >
                     <Socials />
-                </div>
+                </motion.div>
             </footer>
         </>
     )
