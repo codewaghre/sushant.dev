@@ -4,34 +4,34 @@
     "des": "Showcasing my journey through full-stack web development.",
     "project": [
         {
-            "image": "./project/card-banner.jpg",
-            "live": "https://github.com/codewaghre/vaibhav-porfolio/blob/main/src/App.jsx",
+            "image": "./project/atm.png",
+            "live": "https://play.google.com/store/apps/details?id=apna.atm",
             
-            "source": "https://github.com/codewaghre/vaibhav-porfolio/blob/main/src/App.jsx",
-            "projectName": "AttendXPro (AXP)"
+            "source": "https://play.google.com/store/apps/details?id=apna.atm",
+            "projectName": "APNA ATM"
         },
 
         {
-            "image": "./project/card-banner.jpg",
-            "live": "https://github.com/codewaghre/vaibhav-porfolio/blob/main/src/App.jsx",
+            "image": "./project/Jmpro.png",
+            "live": "https://play.google.com/store/apps/details?id=com.jmfs.jmpro",
             
-            "source": "https://github.com/codewaghre/vaibhav-porfolio/blob/main/src/App.jsx",
-            "projectName": "AttendXPro (AXP)"
+            "source": "https://play.google.com/store/apps/details?id=com.jmfs.jmpro",
+            "projectName": "M Pro: Demat, Stocks & IPO"
         },
 
         {
-            "image": "./project/card-banner.jpg",
-            "live": "https://github.com/codewaghre/vaibhav-porfolio/blob/main/src/App.jsx",
+            "image": "./project/mtex.png",
+            "live": "https://play.google.com/store/search?q=mtezz&c=apps",
             
-            "source": "https://github.com/codewaghre/vaibhav-porfolio/blob/main/src/App.jsx",
-            "projectName": "AttendXPro (AXP)"
+            "source": "https://play.google.com/store/search?q=mtezz&c=apps",
+            "projectName": "MAHINDRA & MAHINDRA FINANCIAL SERVICES LIMITED"
         },
         {
-            "image": "./project/card-banner.jpg",
-            "live": "https://github.com/codewaghre/vaibhav-porfolio/blob/main/src/App.jsx",
+            "image": "./project/plusxpro.png",
+            "live": "https://play.google.com/store/apps/details?id=com.planetgroup.planetcloudplatform.fasscoxpromobile",
             
-            "source": "https://github.com/codewaghre/vaibhav-porfolio/blob/main/src/App.jsx",
-            "projectName": "AttendXPro (AXP)"
+            "source": "https://play.google.com/store/apps/details?id=com.planetgroup.planetcloudplatform.fasscoxpromobile",
+            "projectName": "PulseXPro"
         }
 
        
