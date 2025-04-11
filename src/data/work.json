@@ -8,26 +8,22 @@
             "description": "Spearheaded the development of a highly scalable financial mobile application using Flutter. Implemented state management solutions for optimized performance and maintainability. Integrated secure APIs for financial transactions and real-time data updates."
         },
         {
-            "year": "2024 - 2025",
+            "year": "2023 - 2024",
             "position": "Flutter Developer, Sr. developer",
-            "company": "Mahindra Finance Pvt Ltd",
-            "description": "Spearheaded the development of a highly scalable financial mobile application using Flutter. Implemented state management solutions for optimized performance and maintainability. Integrated secure APIs for financial transactions and real-time data updates."
+            "company": "Winjit Technologies Pvt Ltd",
+            "description": "Optimize rendering performance by refining the current state management approach to reduce unnecessary widget rebuilds. Architect a scalable, maintainable, and secure banking app by defining the project structure, selecting appropriate design patterns, and establishing a solid foundational codebase. Lead the team in transforming ideas into effective and practical business solutions."
         },
-
         {
-            "year": "2024 - 2025",
+            "year": "2022 - 2023",
             "position": "Flutter Developer, Sr. developer",
-            "company": "Mahindra Finance Pvt Ltd",
-            "description": "Spearheaded the development of a highly scalable financial mobile application using Flutter. Implemented state management solutions for optimized performance and maintainability. Integrated secure APIs for financial transactions and real-time data updates."
+            "company": "Intellect Software solutions",
+            "description": "Led the development of the Blink Tread Pro web and mobile app, India’s premier stock trading platform, using Flutter for cross-platform deployment across Android, iOS, and web. Collaborated with cross-functional teams throughout the full software development lifecycle, from requirements gathering to deployment. Implemented responsive UI components and integrated RESTful APIs and real-time data via WebSocket, resulting in enhanced functionality, a 50–80% boost in user engagement, and a 15–30% reduction in app crashes. Applied state management solutions like Provider and MobX for efficient architecture and data flow, and worked closely with designers to deliver interactive, user-friendly interfaces. Also contributed to supporting major financial projects such as ICICI Direct Market and the BOB (Bank of Baroda) app."
         },
-
         {
-            "year": "2024 - 2025",
+            "year": "2021 - 2022",
             "position": "Flutter Developer, Sr. developer",
-            "company": "Mahindra Finance Pvt Ltd",
-            "description": "Spearheaded the development of a highly scalable financial mobile application using Flutter. Implemented state management solutions for optimized performance and maintainability. Integrated secure APIs for financial transactions and real-time data updates."
+            "company": "VizPay Business Solution Pvt Ltd | Pine Tree Pvt Ltd.",
+            "description": "Led the design and development of native Android applications in the Payment, Banking, and E-commerce domains, leveraging Android SDK expertise and best practices. Delivered responsive UI/UX across POS devices, mobiles, and tablets, while integrating third-party libraries and APIs. Collaborated with cross-functional teams in Agile environments using tools like Jira and Sprint sheets. Utilized version control systems such as Git, Bitbucket, and GitLab, and handled deployments to Play Store, App Store, and local servers. Also conducted API testing with Postman and Swagger to ensure robust backend integration."
         }
-
-
     ]
 }
