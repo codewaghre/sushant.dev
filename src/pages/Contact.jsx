@@ -9,6 +9,8 @@ import Socials from '../components/Socials';
 
 import toast from 'react-hot-toast'
 
+import { motion } from "motion/react"
+
 function Contact() {
 
     const [formData, setFormData] = useState({
@@ -69,19 +71,34 @@ function Contact() {
 
             <main className='contact-me'>
 
-                <div className='contact-container'>
+                <motion.div className='contact-container'
+                    whileInView={{ opacity: 1, y: 0 }}
+                    initial={{ opacity: 0, y: 30 }}
+                    transition={{ duration: 1.2 }}
+                    viewport={{ once: false }}
+                >
 
                     <div className='connect-social'>
                         <Socials />
                     </div>
 
-                    <p className='contact-des'>Connect with me if you're looking for a results-driven, forward-thinking developer who can turn complex ideas into elegant mobile solutions. I’m excited to bring my energy and experience to your next big project!
+                    <motion.p className='contact-des'
+                        whileInView={{ opacity: 1, y: 0 }}
+                        initial={{ opacity: 0, y: 30 }}
+                        transition={{ duration: 1.2 }}
+                        viewport={{ once: false }}
+                    >Connect with me if you're looking for a results-driven, forward-thinking developer who can turn complex ideas into elegant mobile solutions. I’m excited to bring my energy and experience to your next big project!
 
-                    </p>
+                    </motion.p>
 
                     <div className='contact-form-container'>
 
-                        <form onSubmit={handleSubmit}>
+                        <motion.form
+                            whileInView={{ opacity: 1, y: 0 }}
+                            initial={{ opacity: 0, y: 24 }}
+                            transition={{ duration: 0.8 }}
+                            viewport={{ once: false }}
+                            onSubmit={handleSubmit}>
                             <div className='form-value'>
                                 <label>Name</label>
                                 <input
@@ -120,12 +137,13 @@ function Contact() {
                             <div className='contact-submit-btn'>
                                 <Button text={"Submit"} />
                             </div>
-                        </form>
+                        </motion.form>
                     </div>
-                </div>
+                </motion.div>
 
                 <div className='codeblock-container'>
-                    <p className='code-p'>// Trying to connect with cool people on the internet
+                    <p className='code-p'>
+                    // Trying to connect with cool people on the internet
                         <br /> // Chnage the values  name, email and message
                     </p>
 

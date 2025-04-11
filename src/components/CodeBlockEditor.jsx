@@ -4,6 +4,8 @@ import { defaultCode } from '../data/codeSample';
 import Button from './Button';
 import '../css/code-block.css'
 
+import { motion } from "motion/react"
+
 import toast from 'react-hot-toast';
 
 function CodeBlockEditor() {
@@ -66,30 +68,37 @@ function CodeBlockEditor() {
     };
     return (
         <>
-            <Editor
-                height="300px"
-                className='codeblock'
-                theme='vs-dark'
-                defaultLanguage='javascript'
-                defaultValue="// type smoething"
-                value={value}
-                onChange={(value, event) => setValue(value)}
-            // onMount={onMount}
-            />
+            <motion.div
+                whileInView={{ opacity: 1, x: 0, scale: 1 }}
+                initial={{ opacity: 0, x: 10, scale: 0.9 }}
+                transition={{ duration: 0.8, ease: "easeOut" }}
+                viewport={{ once: false }}
+            >
+                <Editor
+                    height="300px"
+                    className='codeblock'
+                    theme='vs-dark'
+                    defaultLanguage='javascript'
+                    defaultValue="// type smoething"
+                    value={value}
+                    onChange={(value, event) => setValue(value)}
+                // onMount={onMount}
+                />
 
-            <div className="run-code-button">
-                <Button onClick={runCode} text={"Run Code"} />
-            </div>
-
-            {error && (
-                <div className="text-red-500 font-mono">Error: {error}</div>
-            )}
-
-            {showTerminal && (
-                <div className="terminal">
-                    {output}
+                <div className="run-code-button">
+                    <Button onClick={runCode} text={"Run Code"} />
                 </div>
-            )}
+
+                {error && (
+                    <div className="text-red-500 font-mono">Error: {error}</div>
+                )}
+
+                {showTerminal && (
+                    <div className="terminal">
+                        {output}
+                    </div>
+                )}
+            </motion.div>
 
 
 
