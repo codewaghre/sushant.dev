@@ -183,7 +183,7 @@
         padding-block-start: 80px;
     }
 
-    .home-page-socials{
+    .home-page-socials {
         padding-block-end: 10px;
     }
 }
@@ -194,7 +194,7 @@
     .about {
         width: 100%;
         padding-inline: 30px;
-        padding-block-start: 20px;
+        padding-block-start: 40px;
         padding-block-end: 50px;
     }
 
@@ -208,20 +208,20 @@
     }
 
     .about-text-heading {
-        
+
         font-size: 0.8rem;
     }
 
     .bold-text {
         font-size: 0.8rem;
-        
+
     }
 
     .about-para-one {
         font-size: 0.8rem;
     }
 
-    .about-para-two{
+    .about-para-two {
         display: none;
     }
 
@@ -229,21 +229,28 @@
     .stats-container {
         width: 100%;
         padding-block-start: 80px;
-        
-    }
-    
 
-    .home-page-socials{
+    }
+
+
+    .home-page-socials {
         display: flex;
         flex-wrap: wrap;
         padding-block-end: 20px;
     }
 
-    .home-page-btn{
+    .home-page-btn {
         padding-block-end: 4px;
     }
 
-    
+
+    .about-container {
+        display: flex;
+        width: 100%;
+        padding-block-start: 10px;
+    }
+
+
 
 
 }

@@ -6,12 +6,14 @@ import Socials from '../components/Socials'
 
 import aboutjson from "../data/about.json"
 
+import { motion } from "motion/react"
+
+
 function About() {
     const { headingText, about, aboutPageButtons, stats } = aboutjson
     return (
         <section id='about' className='about'>
             <div className='about-heading'>
-
                 <Heading text={headingText} />
             </div>
 
@@ -20,13 +22,18 @@ function About() {
 
                     {about.map((section, i) => (
                         <div key={i} className={section.className}>
-                            <p>
+                            <motion.p
+                                whileInView={{ opacity: 1, y: 0 }}
+                                initial={{ opacity: 0, y: 26 }}
+                                transition={{ duration: 2 }}
+                                viewport={{ once: false }}
+                            >
                                 {section.content.map((item, index) =>
                                     item.type === "normal" ? item.text : (
                                         <span key={index} className={item.type}>{item.text}</span>
                                     )
                                 )}
-                            </p>
+                            </motion.p>
                         </div>
                     ))}
 
@@ -51,14 +58,19 @@ function About() {
                     <div className='stats'>
 
                         {stats.map((item, index) => (
-                            <div key={index} className={item.className}>
+                            <motion.div key={index} className={item.className}
+                                whileInView={{ opacity: 1, x: 0, scale: 1 }}
+                                initial={{ opacity: 0, x: 50, scale: 0.8 }}
+                                transition={{ duration: 1.5, ease: "easeOut" }}
+                                viewport={{ once: false }}
+                            >
                                 <div className={item.innerClass}>
                                     <h1>{item.title}</h1>
                                     <p className='tagline'>{item.tagline}</p>
                                     <div className='full-line'></div>
                                     <p className='taglinetwo'>{item.taglinetwo}</p>
                                 </div>
-                            </div>
+                            </motion.div>
                         ))}
 
                     </div>
