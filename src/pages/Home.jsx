@@ -6,6 +6,7 @@ import Button from '../components/Button'
 import Socials from '../components/Socials'
 
 import { TypeAnimation } from 'react-type-animation';
+import { motion } from "motion/react"
 
 import homejson from '../data/home.json'
 
@@ -13,7 +14,11 @@ import homejson from '../data/home.json'
 function Home() {
     const { headingTwo, mainPara, connectBtn, resumeBtn } = homejson
     return (
-        <section id='home' className='home'>
+        <motion.section id='home' className='home'
+            initial={{ opacity: 0, y: -20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5 }}
+        >
             <header>
                 <Navbar />
             </header>
@@ -39,15 +44,25 @@ function Home() {
 
 
                 <div className='heading-two'>
-                    <h1>
+                    <motion.h1
+                        initial={{ opacity: 0, y: -20 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        transition={{ duration: 0.7, delay: 0.1 }}
+                    >
                         "{headingTwo}"
-                    </h1>
+                    </motion.h1>
                 </div>
 
-                <div className='main-para'>
-                    <p>
+                <div className='main-para'
+
+                >
+                    <motion.p
+                        initial={{ opacity: 0, y: 20 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        transition={{ duration: 0.6, delay: 0.1 }}
+                    >
                         {mainPara}
-                    </p>
+                    </motion.p>
                 </div>
 
                 <div className='home-page-socials'>
@@ -68,7 +83,7 @@ function Home() {
 
             </main>
 
-        </section>
+        </motion.section>
     )
 }
 
