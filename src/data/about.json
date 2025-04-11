@@ -1,0 +1,166 @@
+{
+    "headingText": "cout << \"Text to be printed\"",
+    "about": [
+        {
+            "className": "about-text-heading",
+            "content": [
+                {
+                    "text": "I’m ",
+                    "type": "normal"
+                },
+                {
+                    "text": "Abhishek Waghre",
+                    "type": "bold-text"
+                },
+                {
+                    "text": ", an ",
+                    "type": "normal"
+                },
+                {
+                    "text": "Accomplished Mobile Application Developer",
+                    "type": "bold-text"
+                },
+                {
+                    "text": " based in",
+                    "type": "normal"
+                },
+                {
+                    "text": " Mumbai, India",
+                    "type": "bold-text"
+                },
+                {
+                    "text": ", with over ",
+                    "type": "normal"
+                },
+                {
+                    "text": "9 years of experience ",
+                    "type": "bold-text"
+                },
+                {
+                    "text": "building dynamic, high-performance applications across both ",
+                    "type": "normal"
+                },
+                {
+                    "text": "iOS",
+                    "type": "bold-btn"
+                },
+                {
+                    "text": " and ",
+                    "type": "normal"
+                },
+                {
+                    "text": " Android ",
+                    "type": "bold-btn"
+                },
+                {
+                    "text": "platforms.",
+                    "type": "normal"
+                }
+            ]
+        },
+        {
+            "className": "about-para-one",
+            "content": [
+                {
+                    "text": "I specialize in developing ",
+                    "type": "normal"
+                },
+                {
+                    "text": "successful apps",
+                    "type": "bold-text"
+                },
+                {
+                    "text": " that combine seamless functionality with exceptional user experience.By strategically ",
+                    "type": "normal"
+                },
+                {
+                    "text": "leveraging APIs and web services",
+                    "type": "bold-text"
+                },
+                {
+                    "text": ", I engineer ",
+                    "type": "normal"
+                },
+                {
+                    "text": "scalable",
+                    "type": "bold-text"
+                },
+                {
+                    "text": ",",
+                    "type": "normal"
+                },
+                {
+                    "text": "Secure",
+                    "type": "bold-text"
+                },
+                {
+                    "text": ", and efficient mobile solutions tailored to evolving business needs.",
+                    "type": "normal"
+                }
+            ]
+        },
+        {
+            "className": "about-para-two",
+            "content": [
+                {
+                    "text": "I excel at managing multiple priorities in fast-paced environments, applying strong analytical, interpersonal, and problem-solving skills to every stage of development. Whether collaborating with cross-functional teams or leading key initiatives, I strive to innovate and drive value through mobile technology.",
+                    "type": "normal"
+                }
+            ]
+        },
+        {
+            "className": "connect-with-me",
+            "content": [
+                {
+                    "text": "connect with me: - ",
+                    "type": "normal"
+                },
+                {
+                    "text": "example@wmail.com",
+                    "type": "bold-text"
+                }
+            ]
+        }
+    ],
+    
+  "aboutPageButtons": [
+    {
+      "className": "home-page-btn",
+      "component": "Button",
+      "props": {
+        "text": "Projects"
+      }
+    },
+    {
+      "className": "home-page-btn",
+      "component": "Button",
+      "props": {
+        "text": "Resume"
+      }
+    }
+  ],
+
+    "stats": [
+        {
+            "className": "exp-stats-container",
+            "innerClass": "exp",
+            "title": "9+",
+            "tagline": "Years of Experience",
+            "taglinetwo": "Crafting scalable, high-performance solutions with a decade of hands-on development."
+        },
+        {
+            "className": "project-stats-container",
+            "innerClass": "projects",
+            "title": "20+",
+            "tagline": "Projects Deliverd",
+            "taglinetwo": "Successfully executed diverse projects across domains with precision and impact."
+        },
+        {
+            "className": "tech-stats-container",
+            "innerClass": "tech",
+            "title": "15+",
+            "tagline": "Technology Arsenal",
+            "taglinetwo": "Proficient in a wide tech stack, from frontend frameworks to backend systems."
+        }
+    ]
+}

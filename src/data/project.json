@@ -1,0 +1,39 @@
+
+{
+     "heading": "print(\"Hello, world!\")",
+    "des": "Showcasing my journey through full-stack web development.",
+    "project": [
+        {
+            "image": "./project/card-banner.jpg",
+            "live": "https://github.com/codewaghre/vaibhav-porfolio/blob/main/src/App.jsx",
+            
+            "source": "https://github.com/codewaghre/vaibhav-porfolio/blob/main/src/App.jsx",
+            "projectName": "AttendXPro (AXP)"
+        },
+
+        {
+            "image": "./project/card-banner.jpg",
+            "live": "https://github.com/codewaghre/vaibhav-porfolio/blob/main/src/App.jsx",
+            
+            "source": "https://github.com/codewaghre/vaibhav-porfolio/blob/main/src/App.jsx",
+            "projectName": "AttendXPro (AXP)"
+        },
+
+        {
+            "image": "./project/card-banner.jpg",
+            "live": "https://github.com/codewaghre/vaibhav-porfolio/blob/main/src/App.jsx",
+            
+            "source": "https://github.com/codewaghre/vaibhav-porfolio/blob/main/src/App.jsx",
+            "projectName": "AttendXPro (AXP)"
+        },
+        {
+            "image": "./project/card-banner.jpg",
+            "live": "https://github.com/codewaghre/vaibhav-porfolio/blob/main/src/App.jsx",
+            
+            "source": "https://github.com/codewaghre/vaibhav-porfolio/blob/main/src/App.jsx",
+            "projectName": "AttendXPro (AXP)"
+        }
+
+       
+    ]
+}
