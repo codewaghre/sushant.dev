@@ -7,12 +7,12 @@
 
 .work-heading {
     font-size: 1.3rem;
-    padding-block-end: 20px;
+    padding-block-end: 10px;
 }
 
 .work-container {
     display: flex;
-    padding-block: 30px;
+    padding-block-start: 30px;
 }
 
 .work-year,
@@ -55,7 +55,7 @@
 
 .work-des {
     font-weight: 500;
-    padding-block-end: 30px;
+    padding-block-end: 5px;
     color: var(--para-color);
     overflow-wrap: break-word;
     word-wrap: break-word;
@@ -106,7 +106,7 @@
     }
 
     .work-des {
-        padding-block-end: 30px;
+        padding-block-end: 10px;
     }
 }
 
@@ -153,7 +153,7 @@
     }
 
     .work-des {
-        padding-block-end: 30px;
+        padding-block-end: 10px;
     }
 }
 
@@ -203,6 +203,6 @@
     }
 
     .work-des {
-        padding-block-end: 30px;
+        padding-block-end: 10px;
     }
 }

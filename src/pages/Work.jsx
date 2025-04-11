@@ -1,8 +1,10 @@
 import React from 'react'
 import '../css/work.css'
-import Heading from '../components/Heading'
 
+import Heading from '../components/Heading'
 import workjson from '../data/work.json'
+
+import { motion } from "motion/react"
 
 function Work() {
     const { heading, work } = workjson
@@ -14,7 +16,12 @@ function Work() {
                 {
                     work.map((work, i) => (
                         <div key={i}>
-                            <main className='work-container'>
+                            <motion.main className='work-container'
+                                whileInView={{ opacity: 1, y: 0 }}
+                                initial={{ opacity: 0, y: 26 }}
+                                transition={{ duration: 2 }}
+                                viewport={{ once: false }}
+                            >
 
                                 <div className='work-year'>
                                     <p>{work.year}</p>
@@ -30,15 +37,20 @@ function Work() {
                                     <p className='work-des'>{work.description}
                                     </p>
                                 </div>
-                            </main>
-                            <div className='full-line'></div>
+                            </motion.main>
+                            <motion.div
+                                whileInView={{ opacity: 1, y: 0 }}
+                                initial={{ opacity: 0, y: 22 }}
+                                transition={{ duration: 2 }}
+                                viewport={{ once: false }}
+                                className='full-line'></motion.div>
                         </div>
                     ))
                 }
 
 
 
-                <div className='full-line'></div>
+
 
 
 
