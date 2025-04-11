@@ -29,7 +29,7 @@ function Home() {
                         console.log("Hello{' '}
                         <TypeAnimation
                             sequence={[
-                                'Abhishek!',
+                                'Sushant!',
                                 2000,
                                 'World!',
                                 2000,
