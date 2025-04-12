@@ -12,7 +12,7 @@ import homejson from '../data/home.json'
 
 
 function Home() {
-    const { headingTwo, mainPara, connectBtn, resumeBtn } = homejson
+    const { headingTwo, mainPara, connectBtn, resumeBtn, connect, resume } = homejson
     return (
         <motion.section id='home' className='home'
             initial={{ opacity: 0, y: -20 }}
@@ -67,11 +67,11 @@ function Home() {
 
                 <div className='home-page-socials'>
                     <div className='home-page-btn'>
-                        <Button text={connectBtn} />
+                        <Button text={connectBtn} link={connect} />
                     </div>
 
                     <div className='home-page-btn'>
-                        <Button text={resumeBtn} />
+                        <Button text={resumeBtn} link={resume} />
                     </div>
 
                     <div className='home-page-socials'>

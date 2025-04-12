@@ -17,13 +17,13 @@
             "year": "2022 - 2023",
             "position": "Flutter Developer, Sr. developer",
             "company": "Intellect Software solutions",
-            "description": "Led the development of the Blink Tread Pro web and mobile app, India’s premier stock trading platform, using Flutter for cross-platform deployment across Android, iOS, and web. Collaborated with cross-functional teams throughout the full software development lifecycle, from requirements gathering to deployment. Implemented responsive UI components and integrated RESTful APIs and real-time data via WebSocket, resulting in enhanced functionality, a 50–80% boost in user engagement, and a 15–30% reduction in app crashes. Applied state management solutions like Provider and MobX for efficient architecture and data flow, and worked closely with designers to deliver interactive, user-friendly interfaces. Also contributed to supporting major financial projects such as ICICI Direct Market and the BOB (Bank of Baroda) app."
+            "description": "Led the development of the Blink Tread Pro web and mobile app, India’s premier stock trading platform, using Flutter for cross-platform deployment across Android, iOS, and web. Collaborated with cross-functional teams throughout the full software development lifecycle, from requirements gathering to deployment. Implemented responsive UI components and integrated RESTful APIs and real-time data via WebSocket, resulting in enhanced functionality, a 50–80% boost in user engagement, and a 15–30% reduction in app crashes."
         },
         {
             "year": "2021 - 2022",
             "position": "Flutter Developer, Sr. developer",
             "company": "VizPay Business Solution Pvt Ltd | Pine Tree Pvt Ltd.",
-            "description": "Led the design and development of native Android applications in the Payment, Banking, and E-commerce domains, leveraging Android SDK expertise and best practices. Delivered responsive UI/UX across POS devices, mobiles, and tablets, while integrating third-party libraries and APIs. Collaborated with cross-functional teams in Agile environments using tools like Jira and Sprint sheets. Utilized version control systems such as Git, Bitbucket, and GitLab, and handled deployments to Play Store, App Store, and local servers. Also conducted API testing with Postman and Swagger to ensure robust backend integration."
+            "description": "Led the design and development of native Android applications in the Payment, Banking, and E-commerce domains, leveraging Android SDK expertise and best practices. Delivered responsive UI/UX across POS devices, mobiles, and tablets, while integrating third-party libraries and APIs. Collaborated with cross-functional teams in Agile environments using tools like Jira and Sprint sheets. Utilized version control systems such as Git, Bitbucket, and GitLab, and handled deployments to Play Store, App Store, and local servers."
         }
     ]
 }

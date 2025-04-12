@@ -26,17 +26,19 @@ function Project() {
                 <main className='project-container'>
                     {
                         project.map((data, i) => (
+
                             <motion.div className='project-card-container'
                                 whileInView={{ y: 0, scale: 1 }}
-                                initial={{ y: 50, scale: 0.8 }}
-                                transition={{ duration: 2, ease: "easeOut" }}
-                                viewport={{ once: false, amount: 0.2 }}
+                                initial={{ y: 30, scale: 0.9 }}
+                                transition={{ duration: 0.9, ease: "easeOut" }}
+                                viewport={{ once: false, amount: 0.4 }}
+                                key={i}
                             >
 
                                 <div className='card-info'>
                                     <div className='card-img'>
                                         <a className='card-img'>
-                                            <img src={data.image} />
+                                            <img loading="lazy" alt={data.alt} src={data.image} />
                                         </a>
                                     </div>
 

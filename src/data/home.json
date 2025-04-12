@@ -7,5 +7,8 @@
     "mainPara": " I believe in writing clean, maintainable code, continuously learning new tech, and building digital products that actually help users. Whether working solo or as part of a team, I bring energy, creativity, and precision to every line of code.",
 
     "connectBtn": "Connect with me",
-    "resumeBtn": "Resume"
+    "resumeBtn": "Resume",
+
+    "resume"  : "https://raw.githubusercontent.com/SushantChiplunkar/my-data/main/sushant%20chiplunkar%20resume%202025.pdf",
+    "connect": "#contact"
 }

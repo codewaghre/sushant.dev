@@ -40,7 +40,7 @@ function About() {
                     <div className='home-page-socials'>
                         {aboutPageButtons.map((btn, i) => (
                             <div key={i} className={btn.className}>
-                                <Button text={btn.props.text} />
+                                <Button text={btn.props.text} link={btn.props.link} />
                             </div>
                         ))}
 

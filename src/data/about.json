@@ -1,5 +1,5 @@
 {
-    "headingText": "cout << \"Text to be printed\"",
+    "headingText": "cout << \"About Me\"",
     "about": [
         {
             "className": "about-text-heading",
@@ -128,14 +128,16 @@
       "className": "home-page-btn",
       "component": "Button",
       "props": {
-        "text": "Projects"
+        "text": "Projects",
+        "link": "https://raw.githubusercontent.com/SushantChiplunkar/my-data/main/Project%20Portfolio.pdf"
       }
     },
     {
       "className": "home-page-btn",
       "component": "Button",
       "props": {
-        "text": "Resume"
+        "text": "Resume",
+        "link" : "https://raw.githubusercontent.com/SushantChiplunkar/my-data/main/sushant%20chiplunkar%20resume%202025.pdf"
       }
     }
   ],

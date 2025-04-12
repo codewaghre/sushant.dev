@@ -6,7 +6,7 @@
         {
             "image": "./project/atm.png",
             "live": "https://play.google.com/store/apps/details?id=apna.atm",
-            
+            "alt" : "projectimg",
             "source": "https://play.google.com/store/apps/details?id=apna.atm",
             "projectName": "APNA ATM"
         },
@@ -14,7 +14,7 @@
         {
             "image": "./project/Jmpro.png",
             "live": "https://play.google.com/store/apps/details?id=com.jmfs.jmpro",
-            
+            "alt" : "projectimg",
             "source": "https://play.google.com/store/apps/details?id=com.jmfs.jmpro",
             "projectName": "M Pro: Demat, Stocks & IPO"
         },
@@ -22,14 +22,14 @@
         {
             "image": "./project/mtex.png",
             "live": "https://play.google.com/store/search?q=mtezz&c=apps",
-            
+            "alt" : "projectimg",
             "source": "https://play.google.com/store/search?q=mtezz&c=apps",
             "projectName": "M TEZZ"
         },
         {
             "image": "./project/plusxpro.png",
             "live": "https://play.google.com/store/apps/details?id=com.planetgroup.planetcloudplatform.fasscoxpromobile",
-            
+              "alt" : "projectimg",
             "source": "https://play.google.com/store/apps/details?id=com.planetgroup.planetcloudplatform.fasscoxpromobile",
             "projectName": "PulseXPro"
         }
