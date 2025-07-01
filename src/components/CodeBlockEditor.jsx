@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react'
+import React, { useState } from 'react'
 import Editor from '@monaco-editor/react';
 import { defaultCode } from '../data/codeSample';
 import Button from './Button';
@@ -81,7 +81,7 @@ function CodeBlockEditor() {
                     defaultLanguage='javascript'
                     defaultValue="// type smoething"
                     value={value}
-                    onChange={(value, event) => setValue(value)}
+                    onChange={(value) => setValue(value)}
                 // onMount={onMount}
                 />
 

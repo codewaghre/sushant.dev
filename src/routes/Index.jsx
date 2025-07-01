@@ -13,7 +13,7 @@ import Footer from '../pages/Footer'
 import StickyBar from '../components/StickyBar'
 
 function Index() {
-    const { theme, setTheme } = useTheme()
+    const { theme } = useTheme()
     return (
         <main className='main-bg sticky'>
 

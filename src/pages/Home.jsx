@@ -7,6 +7,7 @@ import Socials from '../components/Socials'
 
 import { TypeAnimation } from 'react-type-animation';
 
+import { motion } from "motion/react"
 
 import homejson from '../data/home.json'
 
