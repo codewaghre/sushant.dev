@@ -3,7 +3,7 @@ import '../css/project.css'
 
 import Heading from '../components/Heading'
 import { FaCircleDot } from "react-icons/fa6";
-import { motion } from "motion/react"
+
 
 import projectjson from "../data/project.json"
 

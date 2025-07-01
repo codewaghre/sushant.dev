@@ -6,7 +6,7 @@ import Button from '../components/Button'
 import Socials from '../components/Socials'
 
 import { TypeAnimation } from 'react-type-animation';
-import { motion } from "motion/react"
+
 
 import homejson from '../data/home.json'
 
@@ -15,9 +15,9 @@ function Home() {
     const { headingTwo, mainPara, connectBtn, resumeBtn, connect, resume } = homejson
     return (
         <motion.section id='home' className='home'
-            initial={{ opacity: 0, y: -20 }}
+            initial={{ opacity: 0, x: -20 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5 }}
+            transition={{ duration: 0.3 }}
         >
             <header>
                 <Navbar />
