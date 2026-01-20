@@ -2,7 +2,7 @@ import React from 'react'
 import '../css/footer.css'
 
 import Socials from '../components/Socials'
-
+import { motion } from "motion/react"
 
 function Footer() {
     return (
