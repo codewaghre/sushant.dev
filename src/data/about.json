@@ -116,7 +116,7 @@
                     "type": "normal"
                 },
                 {
-                    "text": "sushantneo3@gmail.com",
+                    "text": "sushant.s.chiplunkar@gmail.com",
                     "type": "bold-text"
                 }
             ]
@@ -137,7 +137,7 @@
       "component": "Button",
       "props": {
         "text": "Resume",
-        "link" : "https://raw.githubusercontent.com/SushantChiplunkar/my-data/main/sushant%20chiplunkar%20resume%202025.pdf"
+        "link" : "https://raw.githubusercontent.com/codewaghre/sushant.dev/main/public/sushantchiplunkar_Jan2026.pdf"
       }
     }
   ],
