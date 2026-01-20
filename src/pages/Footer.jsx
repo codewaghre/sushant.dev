@@ -2,7 +2,7 @@ import React from 'react'
 import '../css/footer.css'
 
 import Socials from '../components/Socials'
-import { motion } from "motion/react"
+
 
 function Footer() {
     return (
@@ -15,7 +15,7 @@ function Footer() {
                         initial={{ opacity: 1, y: 20 }}
                         transition={{ duration: 1.2 }}
                         viewport={{ once: false }}
-                    >© 2024 Your Company, Inc. All rights reserved.</motion.p>
+                    >© {new Date().getFullYear()} sushant.dev, All rights reserved.</motion.p>
                 </div>
 
                 <motion.div
